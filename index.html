@@ -2,76 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rnorbiato | home</title>
-    <meta name="description" content="PhD Student">
+    <meta name="description" content="Riccardo Norbiato – Post-Doctoral scholar, Paris School of Economics">
     <link rel="stylesheet" href="cv_riki.css">
     <style>
-
+        body {
+            background-color: #f4f6f6;
+            font-family: Arial, sans-serif;
+            font-size: 21px;
+        }
+        h1 { font-style: italic; }
+        .site-nav {
+            margin-bottom: 3rem;
+        }
         .presentation {
             display: flex;
-            align-content: center;
-            justify-content: space-between;
-            }
-
-        .image {
-            vertical-align: middle;
-            width: content-box;
-            padding-right: 10px;
+            align-items: center;
+            gap: 2rem;
+        }
+        .presentation img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
             border-radius: 50%;
         }
-
-        .pres-text {
-            width: 300%;
-            padding-left: 10px;
-            text-wrap: initial;
+        .pres-text a {
+            color: teal;
         }
-
-        .content {
-            vertical-align: middle;
-            alignment: center;
-            width: auto;
-            height: auto;            
+        .highlight {
+            color: teal;
         }
-        
     </style>
 </head>
-<body style="background-color:rgb(244, 246, 246);">
+<body>
   <main>
-      <h1 style="font-style: italic">Riccardo Norbiato</h1>
-  <nav>
+    <h1>Riccardo Norbiato</h1>
+
+    <nav>
       <input class="menu-btn" type="checkbox" id="menu-btn">
-      <p>
-        <label class="menu-icon" for="menu-btn">Menu</label>
-      </p>
-      <ul class="site-nav" style="margin-bottom: 3rem">
-        <li>
-          <a href="https://rnorbiato.github.io"><p style="font-family: Arial">Home</p></a>
-        </li>
-        <li>
-          <a href="https://rnorbiato.github.io/research"><p style="font-family: Arial">Research</p></a>
-        </li>
-        <li>
-          <a href="https://rnorbiato.github.io/teaching"><p style="font-family: Arial">Teaching</p></a>
-        </li>
+      <label class="menu-icon" for="menu-btn">Menu</label>
+      <ul class="site-nav">
+        <li><a href="https://rnorbiato.github.io">Home</a></li>
+        <li><a href="https://rnorbiato.github.io/research">Research</a></li>
+        <li><a href="https://rnorbiato.github.io/teaching">Teaching</a></li>
       </ul>
-      <div class="presentation">
-        <div class="image">
-            <img src="portrait.jpeg">
-        </div>
-        <div class="pres-text">
-          <h4 style="font-style: italic"></h4>
-          <p style="font-size: 21px; font-family: Arial">Welcome! I am a Post-Doctoral scholar at the <a href="https://www.parisschoolofeconomics.eu/">Paris School of Economics</a> and affiliated researcher at the <a href="https://taxobservatory.world/">International Tax Observatory</a> and <a href="https://i-mip.eu/">i-MIP</a>. PhD at <a href="https://crest.science/">CREST</a> (<a href="https://programmes.polytechnique.edu/en">Ecole polytechnique</a>). I visited <a href="https://are.berkeley.edu/">UC Berkeley ARE</a> in 2023.</p>
-          <p style="font-size: 21px; font-family: Arial">My research lies at the intersection of <span style="color: teal">international trade</span> and <span style = "color: teal">environmental economics</span>, with a focus on the role of global value chains. </p>
-          <p style="font-size: 21px; font-family: Arial">Curriculum vitae: <a href="https://www.dropbox.com/scl/fi/osi4i1gy5c41hdfzr3xki/cv_norbiato.pdf?rlkey=yts2wqr9cseqx14lydk4onbrm&dl=0">click here</a> </p> 
-          <p style="font-size: 21px; font-family: Arial">Email: riccardo.norbiato@psemail.eu </p> 
-          <p style="font-size: 21px; font-family: Arial">Institutional: <a href="https://www.parisschoolofeconomics.eu/en/people/riccardo-norbiato/">website</a> </p>
-          <p style="font-size: 21px; font-family: Arial">Social: <a href="https://x.com/RiccardoNorb">twitter</a> </p>  
-        </div>
+    </nav>
+
+    <div class="presentation">
+      <picture>
+        <source srcset="portrait.webp" type="image/webp">
+        <img src="portrait.jpeg" alt="Riccardo Norbiato" width="250" height="250">
+      </picture>
+
+      <div class="pres-text">
+        <p>Welcome! I am a Post-Doctoral scholar at the <a href="https://www.parisschoolofeconomics.eu/">Paris School of Economics</a> and affiliated researcher at the <a href="https://taxobservatory.world/">International Tax Observatory</a> and <a href="https://i-mip.eu/">i-MIP</a>. PhD at <a href="https://crest.science/">CREST</a> (<a href="https://programmes.polytechnique.edu/en">Ecole polytechnique</a>). I visited <a href="https://are.berkeley.edu/">UC Berkeley ARE</a> in 2023.</p>
+        <p>My research lies at the intersection of <span class="highlight">international trade</span>, <span class="highlight">environmental</span> and <span class="highlight">agricultural economics</span>, with a focus on the role of global value chains.</p>
+        <p>Curriculum vitae: <a href="https://www.dropbox.com/scl/fi/osi4i1gy5c41hdfzr3xki/cv_norbiato.pdf?rlkey=yts2wqr9cseqx14lydk4onbrm&dl=0">click here</a></p>
+        <p>Email: riccardo.norbiato@psemail.eu</p>
+        <p>Institutional: <a href="https://www.parisschoolofeconomics.eu/en/people/riccardo-norbiato/">website</a></p>
+        <p>Social: <a href="https://x.com/RiccardoNorb">twitter</a></p>
       </div>
-      </nav>
+    </div>
   </main>
-  <div class="bottom">
-    <span class="mini-note"></span>
-  </div>
 </body>
 </html>
